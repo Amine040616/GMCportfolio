@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+:root { --height: 50px; } 
+header {
+    vertical-align: text-top;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 145, 0), rgb(251, 255, 0), rgb(157, 255, 0), rgb(0, 255, 115), rgb(0, 210, 255), rgb(58, 123, 213), rgb(68, 58, 213), rgb(99, 58, 213), rgb(187, 58, 213), rgb(213, 58, 135), rgb(213, 58, 58));
+    border-image-slice: 1;
+    background-color: navajowhite;
+}
+
+header img, table{
+    margin: 15px;
+}
+
+header p{
+    vertical-align: top;
+    margin-top: 15px;
+    display: inline-block;
+    font-family: lobster;
+    font-size: xx-large;
+    width: 20px;
+    line-height: 80%;
+    margin-block-end: 0em;
+}
+
+ul{
+    margin: 0;
+}
+
+nav{
+    float: right;
+    font-family: roboto;
+}
+
+nav li{
+    display: inline-block;
+    padding: 24px;
+    text-align: center;
+}
+nav li:hover{
+    background-color: burlywood;
+}
+nav a{
+    font-size: 30px;
+    padding: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover{
+    text-align: center;
+    background-color: burlywood;
+    text-decoration: none;
+    color: rgb(109, 78, 22);
+}
+
+#aboutme, #mywork {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+figure, table {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    background-color: rgb(156, 133, 89);
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+
+#about {
+    background-color: rgb(172, 172, 154);
+}
+#work{
+    background-color: rgba(138, 118, 98, 0.507);
+}
+#resume{
+    background-color: rgba(61, 110, 98, 0.507);
+}
+
+.container {
+    padding: 15px 0px;
+    margin: auto;
+    width: 90%;
+}
+
+.first {
+    display: inline-block;
+    /*margin: auto;*/
+    width: 75%;
+}
+
+h2{
+    font-family: lobster;
+    font-size: x-large;
+    color: rgb(71, 68, 62);
+}
+
+h3{
+    font-family: roboto;
+    font-size: large;
+    color: rgb(109, 78, 22);
+}
+
+p {
+    font-family: roboto;
+    
+}
+
+figcaption {
+    font-family: roboto;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(109, 78, 22);
+}
+
+footer div{
+    display: block;
+    background-color: rgb(156, 133, 89);
+    height: var(--height);
+}
+#bottomnav{
+    background-color: rgb(156, 133, 89);
+    float: right;
+    font-family: roboto;
+    margin: 10px 0;
+
+}
+#bottomnav li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+
+}
+#bottomnav li:hover{
+    background-color: burlywood;
+}
+#bottomnav a{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    height: 50px;
+}
+#bottomnav a:hover{
+    text-align: center;
+    background-color: burlywood;
+    text-decoration: none;
+    color: rgb(109, 78, 22);
+}
+#bottomlogo img{
+    
+    margin: 8px;
+    
+}
+
+aside {
+    padding-left: 10px;
+}
+
+label {
+    font-family: roboto;
+    font-weight: bold;
+    
+}
+input:not([type="submit"]), textarea{
+
+    margin: 3px 30px;
+    border-left: rgb(62, 92, 75);
+    border-left-width: 4px;
+    border-left-style: solid;
+    background-color: rgb(148, 167, 151);    
+}
